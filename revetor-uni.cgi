@@ -41,7 +41,7 @@ $IS_TEST = $ENV{'SCRIPT_NAME'} =~ m/-test.pl$/;
 
 if ($IS_TEST)
 {
-  $EVE_PORT    =  5559;
+  $EVE_PORT    =  5555;
   $LOGFILE_WWW = "/logs-test/" . $CERN_UPN;
   $LOGFILE_PFX = $ENV{'DOCUMENT_ROOT'} . $LOGFILE_WWW;
   $CONFIG_WWW = "/config-test/";
@@ -89,6 +89,7 @@ error_ellipse
 compound
 event_demo
 collection_proxies
+texts
 };
 
 # not workign samples NoBPTX.root MinimumBias.root DisplacedJet.root
