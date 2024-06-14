@@ -184,7 +184,7 @@ sub connect_to_server
   my $verbose = shift;
   my $buf;
 
-  cgi_print "Connecting to local cmsShowWeb forker now ..." if $verbose;
+  cgi_print "Connecting to local forker now ..." if $verbose;
 
   my $client = IO::Socket->new(
       Domain   => AF_INET,
