@@ -268,7 +268,7 @@ void boxset()
    if (b->GetPalette())
     eveMng->GetEventScene()->AddElement(b->GetPalette());
 
-   eveMng->Show();
+   // eveMng->Show();
 
    REveViewer* v = ROOT::Experimental::gEve->GetDefaultViewer();
    v->SetAxesType(REveViewer::kAxesOrigin);

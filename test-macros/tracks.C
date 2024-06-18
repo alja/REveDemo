@@ -55,5 +55,5 @@ void tracks()
    eveMng->GetEventScene()->AddElement(trackHolder);
    makeTracks(100, trackHolder);
 
-   eveMng->Show();
+   // eveMng->Show();
 }

@@ -143,6 +143,6 @@ void projection_prescale()
       makeProjectedViewsAndScene(REveProjection::kPT_RhoZ, false);
    }
 
-   eveMng->Show();
+   // eveMng->Show();
 }
 

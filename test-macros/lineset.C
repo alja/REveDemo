@@ -56,5 +56,5 @@ void lineset(bool secondarySelect = true)
    ls2->InitMainTrans();
    ls2->RefMainTrans().Move3LF(40, 200, 200);
 
-   eveMng->Show();
+   // eveMng->Show();
 }

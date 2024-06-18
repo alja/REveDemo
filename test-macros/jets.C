@@ -43,5 +43,5 @@ void jets()
    eveMng->GetEventScene()->AddElement(jetHolder);
    makeJets(7, jetHolder);
 
-   eveMng->Show();
+   // eveMng->Show();
 }

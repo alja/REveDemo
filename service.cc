@@ -652,8 +652,8 @@ void revetor()
                // Connection key
                TRandom3 rnd(0);
                std::string con_key = RandomString(rnd, 16);
-               //REX::gEve->GetWebWindow()->SetConnToken(con_key);
-
+               REX::gEve->GetWebWindow()->SetConnToken(con_key);
+REX::gEve->Show();
                auto url = REX::gEve->GetWebWindow()->GetUrl();
                printf("URL %s \n", url.c_str());
                std::regex re("(\\w+)://([^:]+):(\\d+)/*(.*)");

@@ -124,5 +124,5 @@ void error_ellipse()
    
    makeProjected(eveMng->GetEventScene(), "RPhi", REveProjection::kPT_RPhi);
    makeProjected(eveMng->GetEventScene(), "RhoZ", REveProjection::kPT_RhoZ);
-   eveMng->Show();
+   // eveMng->Show();
 }

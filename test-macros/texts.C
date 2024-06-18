@@ -105,5 +105,5 @@ void texts()
    makeJets(2,jetHolder);
    eveMng->GetEventScene()->AddElement(jetHolder);
 
-   eveMng->Show();
+   // eveMng->Show();
 }

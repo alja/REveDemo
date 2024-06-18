@@ -46,5 +46,5 @@ void points()
    psStar->SetMarkerStyle(3);
    event->AddElement(psStar);
 
-   eveMng->Show();
+   // eveMng->Show();
 }

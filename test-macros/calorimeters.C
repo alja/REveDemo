@@ -94,5 +94,5 @@ void calorimeters()
    makeCalo2D(calo3d, "RPhi", REveProjection::kPT_RPhi);
    makeCalo2D(calo3d, "RhoZ", REveProjection::kPT_RhoZ);
 
-   eveMng->Show();
+   // eveMng->Show();
 }

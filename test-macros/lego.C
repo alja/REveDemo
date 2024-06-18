@@ -103,5 +103,5 @@ void lego()
       s->Draw();
    }
 
-   eveMng->Show();
+   // eveMng->Show();
 }

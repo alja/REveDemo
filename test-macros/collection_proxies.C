@@ -909,5 +909,5 @@ void collection_proxies(bool proj=true)
 
    eveMng->GetWorld()->AddCommand("NextEvent", "sap-icon://step", eventMng, "NextEvent()");
 
-   eveMng->Show();
+   // eveMng->Show();
 }

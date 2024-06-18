@@ -350,5 +350,5 @@ void event_demo()
       projectScenes(true, true);
    }
 
-   eveMng->Show();
+   // eveMng->Show();
 }

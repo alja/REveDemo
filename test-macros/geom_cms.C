@@ -121,5 +121,5 @@ void geom_cms()
       }
    }
 
-   eveMng->Show();
+   // eveMng->Show();
 }

@@ -67,7 +67,7 @@ REveBoxSet* elliptic_boxset_cones(Float_t x=0, Float_t y=0, Float_t z=0,
    REveViewer* v = (REveViewer*)eveMng->GetViewers()->FirstChild();
    v->SetAxesType(REveViewer::kAxesOrigin);
 
-   eveMng->Show();
+   // eveMng->Show();
    return cones;
 }
 
@@ -123,7 +123,7 @@ REveBoxSet* boxset_cones(Float_t x=0, Float_t y=0, Float_t z=0,
    eveMng->GetEventScene()->AddElement(cones);
    eveMng->GetEventScene()->AddElement(lines);
    eveMng->GetEventScene()->AddElement(pal);
-   eveMng->Show();
+   // eveMng->Show();
 
    return cones;
 }
